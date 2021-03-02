@@ -23,7 +23,7 @@ Now we just run `yarn start` (or `npm start` if you prefer that package manager)
 
 ## Open the project with the Expo Go app on iOS or Android, or in your web browser
 
-To run the app we don’t need to build any native code because it runs in the [Expo Go](https://expo.io/tools#client), and the CLI will automatically install it for us in the [iOS simulator](../workflow/ios-simulator.md) or on any connected [Android emulator](../workflow/android-studio-emulator.md) or device. You can also download it from the App Store and Play Store.
+To run the app we don’t need to build any native code because it runs in the [Expo Go](https://expo.io/tools#client) app, and the CLI will automatically install it for us in the [iOS simulator](../workflow/ios-simulator.md) or on any connected [Android emulator](../workflow/android-studio-emulator.md) or device. You can also download it from the [App Store](https://itunes.com/apps/exponent) and [Android Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent).
 
 <Video file="exploring-managed/open.mp4" />
 
