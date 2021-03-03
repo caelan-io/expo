@@ -907,7 +907,7 @@ First, be sure to login to your Expo account `expo login`. This will be part of 
 - **Application Type**: Web Application
 - Give it a name (e.g. "Expo Go Proxy").
 - **URIs** (Authorized JavaScript origins): https://auth.expo.io
-- **Authorized redirect URIs**: https://auth.expo.io/@your-username/your-project-slug
+- **Authorized redirect URIs**: `https://auth.expo.io/@your-username/your-project-slug`
 
 #### iOS Native
 
@@ -1019,13 +1019,13 @@ export default function App() {
   - Save "Web client ID" you'll need it later
   - Press Save
 - Replace `YOUR_GUID` with your "Web client ID" and open this link:
-  - https://console.developers.google.com/apis/credentials/oauthclient/YOUR_GUID.apps.googleusercontent.com
+  - `htps://console.developers.google.com/apis/credentials/oauthclient/YOUR_GUID.apps.googleusercontent.com`
 - Under "URIs" add your hosts URLs
-  - Web dev: https://localhost:19006
-  - Expo Go Proxy: https://auth.expo.io
+  - Web dev: `htps://localhost:19006`
+  - Expo Go Proxy: `https://auth.expo.io`
 - Under "Authorized redirect URIs"
-  - Web dev: https://localhost:19006 -- this is assuming you want to invoke `WebBrowser.maybeCompleteAuthSession();` from the root URL of your app.
-  - Expo Go Proxy: https://auth.expo.io/@yourname/your-app
+  - Web dev: `https://localhost:19006` -- this is assuming you want to invoke `WebBrowser.maybeCompleteAuthSession();` from the root URL of your app.
+  - Expo Go Proxy: `https://auth.expo.io/@yourname/your-app`
 
 <img alt="Google Firebase Console for URIs" src="/static/images/sdk/auth-session/guide/google-firebase-auth-console.png" />
 
